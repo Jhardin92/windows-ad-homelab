@@ -1,0 +1,5 @@
+*.pem
+*.rdp
+*.key
+.DS_Store
+secrets*
