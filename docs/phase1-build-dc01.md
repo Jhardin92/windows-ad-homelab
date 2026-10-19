@@ -19,8 +19,8 @@
 `dcdiag /q` reported a failed **DFSREvent** test after promotion. The DFS Replication log showed a single 6016 warning (error 1355, domain not reachable) logged while AD was still starting, followed by 4602 (SYSVOL initialized) and 6018 (configuration updated successfully). SYSVOL and NETLOGON were shared and SysVolCheck passed, so the warning was boot-time noise rather than a replication fault. The test clears once the event ages past 24 hours.
 
 ## Screenshots
-- `screenshots/phase1-01-rename.png`
-- `screenshots/phase1-02-static-ip.png`
-- `screenshots/phase1-03-promotion.png`
-- `screenshots/phase1-04-verify.png`
-- `screenshots/phase1-05-dfsr-check.png`
+![phase1-01-rename](../screenshots/phase1-01-rename.png)
+![phase1-02-static-ip](../screenshots/phase1-02-static-ip.png)
+![phase1-03-promotion](../screenshots/phase1-03-promotion.png)
+![phase1-04-verify](../screenshots/phase1-04-verify.png)
+![phase1-05-dfsr-check](../screenshots/phase1-05-dfsr-check.png)
