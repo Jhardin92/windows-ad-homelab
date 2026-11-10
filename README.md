@@ -7,8 +7,8 @@ A hands-on lab where I build, configure, deliberately break, and troubleshoot a 
 | Host | Private IP | Role | Status |
 |---|---|---|---|
 | DC01 | 10.10.1.10 | Forest root domain controller, DNS, PDC emulator | Built |
-| SRV01 | 10.10.1.20 | Member server, file shares | Planned |
-| CLIENT01 | 10.10.1.50 | Domain-joined client | Planned |
+| SRV01 | 10.10.1.20 | Member server, file shares | Built |
+| CLIENT01 | 10.10.1.50 | Domain-joined client | Built |
 | DC02 | 10.10.1.11 | Second DC for replication and FSMO practice | Planned |
 
 - **Domain:** `corp.jhlab.internal` (NetBIOS `JHLAB`)
@@ -19,7 +19,7 @@ A hands-on lab where I build, configure, deliberately break, and troubleshoot a 
 
 - [x] Phase 0: VPC, subnet, security group, key pair, cost alert
 - [x] [Phase 1: Build DC01 and the forest](docs/phase1-build-dc01.md)
-- [ ] Phase 2: Join member server and client, OUs, users, groups, file shares
+- [x] [Phase 2: Join member server and client, OUs, users, groups, file shares](docs/phase2-members-ous-share.md)
 - [ ] Phase 3: Group Policy and delegation
 - [ ] Phase 4: Second DC, replication, FSMO roles
 - [ ] Phase 5: Password policies, auditing, LAPS
