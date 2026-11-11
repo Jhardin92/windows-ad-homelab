@@ -20,7 +20,7 @@ A hands-on lab where I build, configure, deliberately break, and troubleshoot a 
 - [x] Phase 0: VPC, subnet, security group, key pair, cost alert
 - [x] [Phase 1: Build DC01 and the forest](docs/phase1-build-dc01.md)
 - [x] [Phase 2: Join member server and client, OUs, users, groups, file shares](docs/phase2-members-ous-share.md)
-- [ ] Phase 3: Group Policy and delegation
+- [x] [Phase 3: Group Policy and delegation](docs/phase3-group-policy-delegation.md)
 - [ ] Phase 4: Second DC, replication, FSMO roles
 - [ ] Phase 5: Password policies, auditing, LAPS
 - [ ] Break/fix scenarios: DNS, GPO, replication, accounts and security
