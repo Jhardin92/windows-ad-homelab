@@ -9,7 +9,7 @@ A hands-on lab where I build, configure, deliberately break, and troubleshoot a 
 | DC01 | 10.10.1.10 | Forest root domain controller, DNS, PDC emulator | Built |
 | SRV01 | 10.10.1.20 | Member server, file shares | Built |
 | CLIENT01 | 10.10.1.50 | Domain-joined client | Built |
-| DC02 | 10.10.1.11 | Second DC for replication and FSMO practice | Planned |
+| DC02 | 10.10.1.11 | Second DC for replication and FSMO practice | Built |
 
 - **Domain:** `corp.jhlab.internal` (NetBIOS `JHLAB`)
 - **Network:** AWS VPC `10.10.0.0/16`, single subnet `10.10.1.0/24`, RDP restricted to one /32 source address
@@ -21,7 +21,7 @@ A hands-on lab where I build, configure, deliberately break, and troubleshoot a 
 - [x] [Phase 1: Build DC01 and the forest](docs/phase1-build-dc01.md)
 - [x] [Phase 2: Join member server and client, OUs, users, groups, file shares](docs/phase2-members-ous-share.md)
 - [x] [Phase 3: Group Policy and delegation](docs/phase3-group-policy-delegation.md)
-- [ ] Phase 4: Second DC, replication, FSMO roles
+- [x] [Phase 4: Second DC, replication, FSMO roles](docs/phase4-second-dc-replication-fsmo.md)
 - [ ] Phase 5: Password policies, auditing, LAPS
 - [ ] Break/fix scenarios: DNS, GPO, replication, accounts and security
 
