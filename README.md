@@ -22,7 +22,7 @@ A hands-on lab where I build, configure, deliberately break, and troubleshoot a 
 - [x] [Phase 2: Join member server and client, OUs, users, groups, file shares](docs/phase2-members-ous-share.md)
 - [x] [Phase 3: Group Policy and delegation](docs/phase3-group-policy-delegation.md)
 - [x] [Phase 4: Second DC, replication, FSMO roles](docs/phase4-second-dc-replication-fsmo.md)
-- [ ] Phase 5: Password policies, auditing, LAPS
+- [x] [Phase 5: Password policies, auditing, LAPS](docs/phase5-accounts-security.md)
 - [ ] Break/fix scenarios: DNS, GPO, replication, accounts and security
 
 ## Highlights so far
