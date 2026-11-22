@@ -34,3 +34,9 @@ A hands-on lab where I build, configure, deliberately break, and troubleshoot a 
 ## Tools
 
 Windows Server 2022, Active Directory Domain Services, DNS, PowerShell, AWS EC2 and VPC, Git
+
+## Break/Fix Scenarios
+| # | Scenario | Status |
+|---|---|---|
+| 00 | [Pre-flight: expired admin password and replication error 8524](breakfix/00-preflight-health-check.md) | ✅ Resolved |
+| D1 | [Client pointed at the wrong DNS server](breakfix/d1-client-wrong-dns-server.md) | ✅ Fixed |
